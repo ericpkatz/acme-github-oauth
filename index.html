@@ -1,0 +1,28 @@
+<html>
+  <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <script src='/dist/main.js' defer></script>
+    <script>
+        const token = '<%= token %>';
+        if(token){
+          window.localStorage.setItem('token', token);
+          window.location.search = '';
+        }
+    </script>
+  </head>
+  <body>
+    <div id='root'></div>
+    <div class='container'>
+    <pre>
+
+
+- Repo Name - acme-store-user
+- Deploy!
+- This is an extension of last weeks assignment
+- https://prof-acme-store.herokuapp.com
+- logins moe:MOE larry:LARRY curly:CURLY
+    </pre>
+    </div>
+  </body>
+</html>
